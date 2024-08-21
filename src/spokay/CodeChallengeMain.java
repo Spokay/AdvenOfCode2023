@@ -1,14 +1,11 @@
 package spokay;
 
-import spokay.problems.Day1Trebuchet;
-import spokay.problems.Day2CubeConundrum;
-import spokay.problems.Day3GearRatios;
-import spokay.problems.Day4ScratchCards;
+import spokay.problems.*;
 
 public class CodeChallengeMain {
 
     public static void main(String[] args) {
-        runProblem(new Day4ScratchCards());
+        runProblem(new Day5SeedFertilizer());
     }
 
     public static void runProblem(Problem pb){
